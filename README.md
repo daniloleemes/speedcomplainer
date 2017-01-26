@@ -45,6 +45,15 @@ CSV Logging config example:
 }
 ```
 
+## Pre install
+
+```
+sudo pip install daemon
+sudo pip install twitter
+sudo apt-get install speedtest-cli
+sudo ln -s /usr/bin/speedtest-cli /usr/local/bin/speedtest-cli
+```
+
 ## Usage
 > python speedcomplainer.py
 
